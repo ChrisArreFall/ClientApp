@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">clienteApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_platillo">platillo</string>
+    <string name="title_activity_orden_actual">OrdenActual</string>
+    <string name="title_activity_check_out">CheckOut</string>
+    <string name="title_activity_comment">Comment</string>
+</resources>
