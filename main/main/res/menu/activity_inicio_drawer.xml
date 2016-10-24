@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--cambiar nombres-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dishes"
+
+            android:title="Platillos" />
+        <item
+            android:id="@+id/nav_currentOrder"
+
+            android:title="Orden Actual" />
+        <item
+            android:id="@+id/nav_checkOut"
+            android:title="Pagar" />
+        <item
+            android:id="@+id/nav_comment"
+            android:title="Comentarios" />
+    </group>
+
+</menu>
