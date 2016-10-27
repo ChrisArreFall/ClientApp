@@ -36,7 +36,6 @@
             android:name=".Comment"
             android:label="@string/title_activity_comment"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ComandoVoz"></activity>
     </application>
 
 </manifest>
