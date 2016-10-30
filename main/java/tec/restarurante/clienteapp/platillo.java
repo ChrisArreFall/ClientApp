@@ -60,7 +60,7 @@ public class platillo extends AppCompatActivity
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
                 RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         intent.putExtra(RecognizerIntent.EXTRA_PROMPT,
-                "Speak something...");
+                "Hable ahora");
         try {
             startActivityForResult(intent, SPEECH_RECOGNITION_CODE);
         } catch (ActivityNotFoundException a) {
@@ -112,7 +112,7 @@ public class platillo extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            startActivity(new Intent(this,ComandoVoz.class));
+
             return true;
         }
 

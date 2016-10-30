@@ -13,11 +13,68 @@
     tools:context="tec.restarurante.clienteapp.Comment"
     tools:showIn="@layout/activity_comment">
 
+    <Button
+        android:text="Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:id="@+id/boton_enviar"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/boton_reiniciar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="107dp"
-        android:id="@+id/ratingBar" />
+        android:layout_marginBottom="30dp"
+        android:id="@+id/ratingBar"
+        android:layout_above="@+id/boton_enviar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Calificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/ratingBar"
+        android:layout_alignLeft="@+id/boton_reiniciar"
+        android:layout_alignStart="@+id/boton_reiniciar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:text="Comentario"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

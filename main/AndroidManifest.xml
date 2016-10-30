@@ -3,7 +3,7 @@
     package="tec.restarurante.clienteapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,7 +36,6 @@
             android:name=".Comment"
             android:label="@string/title_activity_comment"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ComandoVoz"></activity>
     </application>
 
 </manifest>
